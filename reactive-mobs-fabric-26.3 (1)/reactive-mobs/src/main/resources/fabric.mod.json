@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "reactivemobs",
+  "version": "${version}",
+  "name": "Reactive Mobs",
+  "description": "Mobs that react: cows fight back, animals stampede, hostiles pack up, flee, loot you and dig for you, witches support, piglins respect gold.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.reactivemobs.ReactiveMobs"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
